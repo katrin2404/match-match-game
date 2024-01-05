@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game</title>
+  <link href="src/styles/styles.css" rel="stylesheet">
+  <script async src="build/bundle.js"></script>
+</head>
+<body>
+<div class="wrapper">
+  <div class="overlay cancel-modal">
+    <div class="modal-container cancel-modal">
+      <h1>Welcome to &#8216;Find a Pair&#8217; game!</h1>
+      <div class="modal">
+        <p>Click on the card to turn it and memorize the picture. Find the couples to win the game!</p>
+        <h2>DIFFICULTY</h2>
+        <ul class="menu-selector difficulty"></ul>
+        <h2>THEME</h2>
+        <ul class="menu-selector theme"></ul>
+        <footer>
+          <button class="submit">START</button>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <section class="game-container cancel-modal">
+    <div class="end-game congrats hidden">
+    </div>
+    <button class="modal-trigger"><img src="src/images/menu.png"></button>
+    <div class="timer">00:00</div>
+    <div class="memory-bord"></div>
+  </section>
+</div>
+</body>
+</html>
+
